@@ -1,0 +1,793 @@
+{
+  "info": {
+    "_postman_id": "8c7fcbe5-3e68-49da-ac73-8facb3c7e4c4",
+    "name": "Register",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50290976",
+    "_collection_link": "https://go.postman.co/collection/50290976-8c7fcbe5-3e68-49da-ac73-8facb3c7e4c4?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Test_1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"Nguyễn Văn A\",\r\n  \"email\": \"test1@gmail.com\",\r\n  \"username\": \"test1\",\r\n  \"password\": \"MyPass123\",\r\n  \"confirm_password\": \"MyPass123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"\",\r\n  \"email\": \"test1@gmail.com\",\r\n  \"username\": \"test1\",\r\n  \"password\": \"MyPass123\",\r\n  \"confirm_password\": \"MyPass123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test3\",\r\n  \"email\": \"test1@gmail.com\",\r\n  \"username\": \"\",\r\n  \"password\": \"MyPass123\",\r\n  \"confirm_password\": \"MyPass123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_4",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test3\",\r\n  \"email\": \"test1@gmail.com\",\r\n  \"username\": \"trang_thu\",\r\n  \"password\": \"\",\r\n  \"confirm_password\": \"MyPass123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_5",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test4\",\r\n  \"email\": \"test2@gmail.com\",\r\n  \"username\": \"trang_thuu\",\r\n  \"password\": \"Pass1234\",\r\n  \"confirm_password\": \"\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_6",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test1234567890123456789034567890123456789432123456789012345678901234567890986543456782345678901234thu\",\r\n  \"email\": \"test3@gmail.com\",\r\n  \"username\": \"trang_trang\",\r\n  \"password\": \"Pass12345\",\r\n  \"confirm_password\": \"Pass12345\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_7",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"t\",\r\n  \"email\": \"test4@gmail.com\",\r\n  \"username\": \"trang_trangg\",\r\n  \"password\": \"Pass123456\",\r\n  \"confirm_password\": \"Pass123456\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_8",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"@#$ %^&\",\r\n  \"email\": \"test5@gmail.com\",\r\n  \"username\": \"trangg_trangg\",\r\n  \"password\": \"Pass1234567\",\r\n  \"confirm_password\": \"Pass1234567\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_9",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"trang1234\",\r\n  \"email\": \"test6@gmail.com\",\r\n  \"username\": \"trangg_tranggg\",\r\n  \"password\": \"Pass12345678\",\r\n  \"confirm_password\": \"Pass1234567\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_10",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": 12 3,\r\n  \"email\": \"test9@gmail.com\",\r\n  \"username\": \"trangg_trangggggg\",\r\n  \"password\": \"Pass12345678901\",\r\n  \"confirm_password\": \"Pass12345678901\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_11",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": 12.33,\r\n  \"email\": \"test8@gmail.com\",\r\n  \"username\": \"trangg_tranggggg\",\r\n  \"password\": \"Pass1234567890\",\r\n  \"confirm_password\": \"Pass1234567890\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_12",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": 12 3,\r\n  \"email\": \"test9@gmail.com\",\r\n  \"username\": \"trangg_trangggggg\",\r\n  \"password\": \"Pass12345678901\",\r\n  \"confirm_password\": \"Pass12345678901\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_13",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": 12 3,\r\n  \"email\": \"test9@gmail.com\",\r\n  \"username\": \"trangg_trangggggg\",\r\n  \"password\": \"Pass12345678901\",\r\n  \"confirm_password\": \"Pass12345678901\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_14",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test7\",\r\n  \"email\": \"test11@gmail.com\",\r\n  \"username\": \"trangg_trangggggggg1\",\r\n  \"password\": \"Pass12345678901235\",\r\n  \"confirm_password\": \"Pass12345678901235\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_15",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test9\",\r\n  \"email\": 121,\r\n  \"username\": \"trangg_trangggggggg12\",\r\n  \"password\": \"Pass123456789012356\",\r\n  \"confirm_password\": \"Pass123456789012356\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_16",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test10\",\r\n  \"email\": 12.11,\r\n  \"username\": \"trangg_trangggggggg123\",\r\n  \"password\": \"Pass1234567890123567\",\r\n  \"confirm_password\": \"Pass1234567890123567\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_17",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test11\",\r\n  \"email\": true,\r\n  \"username\": \"chon1\",\r\n  \"password\": \"Pass0123\",\r\n  \"confirm_password\": \"Pass0123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_18",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test11\",\r\n  \"email\": true,\r\n  \"username\": \"chon1\",\r\n  \"password\": \"Pass0123\",\r\n  \"confirm_password\": \"Pass0123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_19",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test13\",\r\n  \"email\": \"abs12@gmail.com\",\r\n  \"username\": \"chon chonn\",\r\n  \"password\": \"Pass0123\",\r\n  \"confirm_password\": \"Pass0123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_20",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test14\",\r\n  \"email\": \"chon12@gmail.com\",\r\n  \"username\": 123,\r\n  \"password\": \"Pass0123\",\r\n  \"confirm_password\": \"Pass0123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_21",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test15\",\r\n  \"email\": \"chonchon12@gmail.com\",\r\n  \"username\": 1.34,\r\n  \"password\": \"Pass123456789012356\",\r\n  \"confirm_password\": \"Pass123456789012356\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}"
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_22",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test16\",\r\n  \"email\": \"chonchon123@gmail.com\",\r\n  \"username\": true,\r\n  \"password\": \"Pass123456789012356\",\r\n  \"confirm_password\": \"Pass123456789012356\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_24",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test3\",\r\n  \"email\": \"test1@gmail.com\",\r\n  \"username\": \"trang_thu\",\r\n  \"password\": \"Pass123\",\r\n  \"confirm_password\": \"Pass123\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_25",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test17\",\r\n  \"email\": \"chonchon1234@gmail.com\",\r\n  \"username\": \"thaihoang\",\r\n  \"password\": \"PIIE\",\r\n  \"confirm_password\": \"PIIE\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_26",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test20\",\r\n  \"email\": \"chonchon123345@gmail.com\",\r\n  \"username\": \"thaihoangg1\",\r\n  \"password\": \"trangnee\",\r\n  \"confirm_password\": \"trangnee\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_27",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test23\",\r\n  \"email\": \"chonchon123456@gmail.com\",\r\n  \"username\": \"thaihoang3\",\r\n  \"password\": \"234567890\",\r\n  \"confirm_password\": \"234567890\",\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_28",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test25\",\r\n  \"email\": \"chonchon12345678@gmail.com\",\r\n  \"username\": \"thaihoang356\",\r\n  \"password\": 123,\r\n  \"confirm_password\": 123,\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_29",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test27\",\r\n  \"email\": \"chonchon123456789@gmail.com\",\r\n  \"username\": \"thaihoang3567\",\r\n  \"password\": 12.53,\r\n  \"confirm_password\": 12.53,\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_30",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"full_name\": \"test28\",\r\n  \"email\": \"chonchon1234567890@gmail.com\",\r\n  \"username\": \"thaihoang35678\",\r\n  \"password\": true,\r\n  \"confirm_password\": true,\r\n  \"phone_number\": \"0912345678\",\r\n  \"department\": \"Phòng Kỹ thuật\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/{{Register}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "{{Register}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Test_31",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "URL",
+      "value": ""
+    },
+    {
+      "key": "Register",
+      "value": ""
+    }
+  ]
+}
